@@ -1,0 +1,197 @@
+[gd_scene load_steps=16 format=3 uid="uid://pggylph24xam"]
+
+[ext_resource type="Script" path="res://script/q9.gd" id="1_k326h"]
+[ext_resource type="Texture2D" uid="uid://b3dpgngytqqix" path="res://Assets/classroom.webp" id="2_ncnfp"]
+[ext_resource type="Texture2D" uid="uid://byhqu6xsmv3rl" path="res://Assets/paper.png" id="3_a4go3"]
+[ext_resource type="Script" path="res://script/rich_text_label.gd" id="4_jykkd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0hlof"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_snw46"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x5q5y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rkm8p"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g1gsj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8qyj8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u1sbh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pu3on"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u55rc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m7svt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hw8td"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_k326h")
+
+[node name="classroom" type="Sprite2D" parent="."]
+position = Vector2(-23.25, -244.5)
+scale = Vector2(3.98583, 4.16539)
+texture = ExtResource("2_ncnfp")
+
+[node name="Label" type="Label" parent="classroom"]
+offset_left = -190.827
+offset_top = -153.414
+offset_right = 200.173
+offset_bottom = 18.5856
+text = "Hellishly Hard:
+
+Question 9:
+How many pieces did Tchaikovsky write?"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-8, -332)
+zoom = Vector2(0.5, 0.5)
+
+[node name="Paper" type="Sprite2D" parent="."]
+position = Vector2(-832, -22)
+texture = ExtResource("3_a4go3")
+
+[node name="Button" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -204.0
+offset_top = -124.0
+offset_right = 130.0
+offset_bottom = -118.4
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0hlof")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_snw46")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_x5q5y")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_rkm8p")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_g1gsj")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_8qyj8")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_u1sbh")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_pu3on")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_u55rc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_m7svt")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_hw8td")
+action_mode = 0
+text = "A) 168"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button2" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -190.0
+offset_top = -46.0
+offset_right = 144.0
+offset_bottom = -40.4
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0hlof")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_snw46")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_x5q5y")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_rkm8p")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_g1gsj")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_8qyj8")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_u1sbh")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_pu3on")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_u55rc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_m7svt")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_hw8td")
+action_mode = 0
+text = "B) 169"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button3" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -172.0
+offset_top = 33.0
+offset_right = 162.0
+offset_bottom = 38.6
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0hlof")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_snw46")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_x5q5y")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_rkm8p")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_g1gsj")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_8qyj8")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_u1sbh")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_pu3on")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_u55rc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_m7svt")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_hw8td")
+action_mode = 0
+text = "C) 170"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button4" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -156.0
+offset_top = 115.0
+offset_right = 178.0
+offset_bottom = 120.6
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0hlof")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_snw46")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_x5q5y")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_rkm8p")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_g1gsj")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_8qyj8")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_u1sbh")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_pu3on")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_u55rc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_m7svt")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_hw8td")
+action_mode = 0
+text = "D) 171"
+metadata/_edit_use_anchors_ = true
+
+[node name="scoreLabel" type="StaticBody2D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="scoreLabel"]
+offset_left = -880.0
+offset_top = -200.0
+offset_right = -542.0
+offset_bottom = -140.0
+rotation = -0.159913
+theme_override_colors/table_border = Color(0, 0, 0, 1)
+theme_override_colors/table_even_row_bg = Color(0, 0, 0, 1)
+theme_override_colors/table_odd_row_bg = Color(0, 0, 0, 1)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_colors/selection_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "Score: 15/15"
+script = ExtResource("4_jykkd")
+
+[connection signal="pressed" from="Paper/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Paper/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Paper/Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Paper/Button4" to="." method="_on_button_4_pressed"]

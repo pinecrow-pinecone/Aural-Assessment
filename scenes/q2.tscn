@@ -1,0 +1,168 @@
+[gd_scene load_steps=17 format=3 uid="uid://dktjfyq68uoyq"]
+
+[ext_resource type="Texture2D" uid="uid://b3dpgngytqqix" path="res://Assets/classroom.webp" id="1_axjg4"]
+[ext_resource type="Script" path="res://script/q2.gd" id="1_x034h"]
+[ext_resource type="Texture2D" uid="uid://byhqu6xsmv3rl" path="res://Assets/paper.png" id="2_l4cxc"]
+[ext_resource type="AudioStream" uid="uid://cb6aj602q05te" path="res://Violin Sonata no. 21, K. 304 - I. Allegro.wav" id="4_gnf74"]
+[ext_resource type="Script" path="res://script/rich_text_label.gd" id="5_buf6l"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x05b3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kj2bo"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gwkfi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jokjc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e6r6h"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uqsio"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g231o"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ugth0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o2axc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h80b4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mbwvi"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_x034h")
+
+[node name="classroom" type="Sprite2D" parent="."]
+position = Vector2(-23.25, -244.5)
+scale = Vector2(3.98583, 4.16539)
+texture = ExtResource("1_axjg4")
+
+[node name="Label" type="Label" parent="classroom"]
+offset_left = -190.827
+offset_top = -153.414
+offset_right = 200.173
+offset_bottom = 18.5856
+text = "Extremely Easy:
+
+Question 2:
+What instrument is not currently playing?"
+horizontal_alignment = 1
+
+[node name="Paper" type="Sprite2D" parent="."]
+position = Vector2(-832, -22)
+texture = ExtResource("2_l4cxc")
+
+[node name="Button" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -192.0
+offset_top = -120.0
+offset_right = 142.0
+offset_bottom = -114.4
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_x05b3")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_kj2bo")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_gwkfi")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_jokjc")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_e6r6h")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_uqsio")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_g231o")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_ugth0")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_o2axc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_h80b4")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_mbwvi")
+action_mode = 0
+text = "A) Pianoforte"
+
+[node name="Button2" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -175.0
+offset_top = -30.0
+offset_right = 159.0
+offset_bottom = -24.4
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_x05b3")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_kj2bo")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_gwkfi")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_jokjc")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_e6r6h")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_uqsio")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_g231o")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_ugth0")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_o2axc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_h80b4")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_mbwvi")
+action_mode = 0
+text = "B) Violin"
+
+[node name="Button4" type="Button" parent="Paper"]
+anchors_preset = -1
+anchor_bottom = 0.21
+offset_left = -163.0
+offset_top = 63.0
+offset_right = 171.0
+offset_bottom = 68.6
+rotation = -0.152343
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+theme_override_styles/focus = SubResource("StyleBoxEmpty_x05b3")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_kj2bo")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_gwkfi")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_jokjc")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_e6r6h")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_uqsio")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_g231o")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_ugth0")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_o2axc")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_h80b4")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_mbwvi")
+action_mode = 0
+text = "C) Tuba"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-8, -332)
+zoom = Vector2(0.5, 0.5)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_gnf74")
+autoplay = true
+
+[node name="scoreLabel" type="StaticBody2D" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="scoreLabel"]
+offset_left = -878.0
+offset_top = -210.0
+offset_right = -687.0
+offset_bottom = -151.0
+rotation = -0.111896
+theme_override_colors/table_border = Color(0, 0, 0, 1)
+theme_override_colors/table_even_row_bg = Color(0, 0, 0, 1)
+theme_override_colors/table_odd_row_bg = Color(0, 0, 0, 1)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_colors/selection_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 30
+text = "Score: 15/15"
+script = ExtResource("5_buf6l")
+
+[connection signal="pressed" from="Paper/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Paper/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Paper/Button4" to="." method="_on_button_4_pressed"]
